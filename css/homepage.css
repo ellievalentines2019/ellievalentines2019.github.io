@@ -1,0 +1,37 @@
+/* Initial formatting (no slides yet) */
+body {
+    background-image: url("../images/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+/* Format the list of song titles */
+.songs {
+    width: 50%;
+    margin: auto;
+    background: rgba(149, 163, 179, 0.4);
+}
+
+.song-list {
+  list-style: none;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
