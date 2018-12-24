@@ -1,37 +1,38 @@
 /* Initial formatting (no slides yet) */
 body {
+    height: 100%;
+    margin: 0;
     background-image: url("../images/1.jpg");
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: contain;
 }
 
 /* Format the list of song titles */
 .songs {
-    width: 50%;
-    margin: auto;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
     background: rgba(149, 163, 179, 0.4);
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a:visited {
+  color: white;
 }
 
 .song-list {
+  padding: 70px;
   list-style: none;
   text-align: center;
 }
 
-/* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+.bg {
+  height: 100%;
+  background-image: url("../images/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
